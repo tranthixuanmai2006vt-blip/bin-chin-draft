@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bin và Chin hay đi linh tinh</title>
+<meta name="theme-color" content="#fbf1e4">
+<!-- Font hỗ trợ đầy đủ tiếng Việt: Pacifico (tiêu đề) + Mali (nội dung) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600&family=Pacifico&display=swap&subset=vietnamese" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>.reveal{opacity:1!important;transform:none!important}.page{opacity:1!important}</style></noscript>
+</head>
+<body>
+<main>
+
+<!-- SECTION 1: TRANG CHÀO MỪNG -->
+<section class="page" id="welcome">
+  <div class="doodles" aria-hidden="true"></div>
+  <div class="sticker-card reveal">
+    <p class="tag" data-t="tagline"></p>
+    <h1 data-t="title">Bin và Chin hay đi linh tinh</h1>
+    <p class="sub" id="subtitle" data-t="subtitle"></p>
+    <button class="btn" id="enter" data-t="enterButton">Ai thèm ♡</button>
+  </div>
+</section>
+
+<!-- SECTION 2: BỨC THƯ -->
+<section class="page" id="letter">
+  <div class="doodles" aria-hidden="true"></div>
+  <div class="env-wrap" id="envWrap">
+    <div class="env" id="env" role="button" tabindex="0" aria-label="Phong bì thư, chạm để mở">
+      <div class="env-back"></div><div class="env-paper"></div>
+      <div class="env-front"></div><div class="env-flap"></div>
+      <div class="seal">♥</div>
+    </div>
+  </div>
+  <article class="letter" id="letterBody" aria-label="Bức thư">
+    <div class="letter-in" id="letterText"></div>
+  </article>
+</section>
+
+<!-- SECTION 3: NHẠC + THƯỚC PHIM ẢNH -->
+<section class="page" id="music">
+  <div class="doodles" aria-hidden="true"></div>
+  <h2 data-t="music.heading"></h2>
+  <div class="cassette reveal" id="cassette">
+    <div class="c-label" data-t="music.title"></div>
+    <div class="c-window" aria-hidden="true"><i class="reel"></i><i class="reel"></i></div>
+    <div class="c-ctrl">
+      <button class="btn round" id="play" disabled aria-label="Phát nhạc">▶</button>
+      <div class="bar" id="bar" role="slider" tabindex="0" aria-label="Tiến trình bài hát" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="fill"></i></div>
+      <span class="time" id="time">0:00 / 0:00</span>
+    </div>
+    <p class="note" id="audioNote"></p>
+  </div>
+  <div class="stage paused" id="stage" aria-live="polite"></div>
+</section>
+
+<!-- SECTION 4: BÁNH KEM + LỜI CẦU HÔN -->
+<section class="page" id="cake">
+  <div class="doodles" aria-hidden="true"></div>
+  <div class="cake-wrap" id="cakeWrap">
+    <svg viewBox="0 0 300 280" role="img" aria-label="Chiếc bánh kem số 6 với 6 cây nến">
+      <ellipse cx="150" cy="252" rx="128" ry="14" fill="#e8d5c0"/>
+      <rect x="35" y="150" width="230" height="100" rx="22" fill="#f7b9c8"/>
+      <rect x="35" y="150" width="230" height="26" rx="13" fill="#fff"/>
+      <g fill="#fff"><circle cx="60" cy="176" r="9"/><circle cx="98" cy="178" r="11"/><circle cx="142" cy="176" r="8"/><circle cx="190" cy="179" r="11"/><circle cx="232" cy="176" r="9"/></g>
+      <rect x="75" y="100" width="150" height="55" rx="18" fill="#ffe1e8"/>
+      <rect x="75" y="100" width="150" height="20" rx="10" fill="#fff"/>
+      <g fill="#fff"><circle cx="100" cy="120" r="8"/><circle cx="150" cy="122" r="9"/><circle cx="200" cy="120" r="8"/></g>
+      <g fill="#5a3b36"><circle cx="127" cy="136" r="3.5"/><circle cx="173" cy="136" r="3.5"/></g>
+      <g fill="#f4a0b0"><ellipse cx="114" cy="144" rx="7" ry="4"/><ellipse cx="186" cy="144" rx="7" ry="4"/></g>
+      <path d="M143 141q7 7 14 0" fill="none" stroke="#5a3b36" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="150" y="232" text-anchor="middle" font-family="Pacifico,cursive" font-size="72" fill="#d9667f">6</text>
+      <g stroke-width="3.5" stroke-linecap="round"><path d="M58 200l8-4" stroke="#8fb08c"/><path d="M76 228l6 6" stroke="#e3b25a"/><path d="M228 204l8 3" stroke="#e3b25a"/><path d="M244 230l-7 5" stroke="#8fb08c"/><path d="M62 232l7-2" stroke="#d9667f"/><path d="M238 192l3 8" stroke="#d9667f"/></g>
+      <path d="M58 148q4-14 12-18" fill="none" stroke="#7fa17b" stroke-width="2.5" stroke-linecap="round"/><circle cx="57" cy="150" r="9" fill="#c9485f"/><circle cx="54" cy="147" r="2.5" fill="#fff" opacity=".7"/>
+      <g id="candles"></g>
+    </svg>
+  </div>
+  <button class="btn" id="wish" hidden data-t="cake.wishButton">MAKE A WISH ♡</button>
+  <p class="wishmsg hand" id="wishMsg" hidden data-t="cake.wishMessage"></p>
+  <div class="ringbox" id="ringBox" hidden></div>
+  <div class="ribbon" id="ribbon" hidden>
+    <p data-t="proposal.question"></p>
+  </div>
+  <div class="choices" id="choices" hidden>
+    <button class="btn" id="yes" data-t="proposal.yes">Có</button>
+    <button class="btn alt" id="no" data-t="proposal.no">Không thể không đồng ý</button>
+  </div>
+</section>
+
+</main>
+
+<!-- MÀN HÌNH KẾT QUẢ (Có / Không thể không đồng ý) -->
+<div class="result" id="result" hidden role="dialog" aria-modal="true" aria-labelledby="resTitle">
+  <div class="res-card">
+    <div class="res-art" id="resArt"></div>
+    <h2 id="resTitle"></h2>
+    <p id="resText"></p>
+    <button class="btn alt" id="close" data-t="proposal.closeButton">Quay lại ♡</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

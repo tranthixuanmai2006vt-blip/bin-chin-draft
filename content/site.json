@@ -1,0 +1,40 @@
+{
+  "title": "Bin và Chin hay đi linh tinh",
+  "tagline": "♡ nhật ký của hai đứa ♡",
+  "subtitle": "Khỉ già mít đóc đã sẵn sàng để mít ướt chưa?",
+  "enterButton": "Ai thèm ♡",
+  "letter": {
+    "paragraphs": [
+      "Chào cục zàng khỉ già mít đóc mít ướt mít đặc của em,",
+      "Vậy là tròn 6 tháng chúng mình dành thời gian yêu thương và học cách yêu nhau, thương nhau hơn từng ngày. Happy anniversary chúng mình nha ><",
+      "Cám ơn anh vì đã đến, yêu em, thương em, quan tâm em từ những điều nhỏ nhặt nhất. Cám ơn anh vì đã luôn lựa chọn đồng hành cùng với em, dù có khó khăn. Cám ơn anh vì đã là chỗ dựa cho em những khi em yếu mềm. Cám ơn anh vì đã tin tưởng dựa vào em khi anh mệt mỏi. Cám ơn anh vì bảo bọc em. Cám ơn anh, vì nhẫn nại chỉ bảo em những điều chưa phải. Cám ơn anh, vì nhún nhường em khi có cãi vả. Cám ơn vì tất cả mọi thứ, vì đã yêu, đã thương em, dù em vẫn còn chưa đủ lớn.",
+      "Xin lỗi anh vì những lần làm anh phải buồn, phải khóc thành tiếng. Em chẳng hề mong làm anh buồn một tí nào cả, em nói thật đấy.",
+      "Ngày trước, em thấy anh vui vẻ, thoải mái, là một người tốt để kề vai, tâm sự. Rồi đến ngày chúng mình cùng cười khúc khích vì đã là của nhau, em lại thấy anh thật hồn nhiên, và thật là dễ thương. Cho đến lúc, anh mắng em, em lại thấy, anh hung dữ y như con sư tử, rất đáng ghét! Đến bây giờ, em thấy anh, như một người bạn trai tuyệt vời nhất mà em may mắn được yêu, được thương. Cám ơn anh vì mang đến cho cuộc sống em nhiều điều tuyệt vời, nhiều gam màu đến thế!",
+      "Vẫn sẽ còn những chông gai, vẫn sẽ có những phép màu. Em chẳng biết cuộc hành trình này sẽ đi về đâu, nhưng ít nhất, anh và em, chúng mình phải cố gắng cho đến cuối nha, em vẫn đang tập hát mỗi ngày đó, anh liệu mà học thuộc bài đi!",
+      "P/s: Anh hay bảo ghen tị vì không có quà handmade, nên em quyết định chơi lớn làm một quả bom bự đùng không con bánh bèo nào làm lại, và là độc bản dành cho mỗi một mình anh, không thể có tutorial luôn, tha hồ mà khóc nha ple!",
+      "Một cột mốc mới,\nChúc mừng cả anh và em./."
+    ]
+  },
+  "music": {
+    "heading": "Món quà âm nhạc (hát dở quá im sr)",
+    "title": "Bin ♡ Chin",
+    "audio": "audio/song.mp3",
+    "placeholder": "Chờ em bỏ món quà âm thanh vào đây nhé ♡",
+    "playLabel": "Phát nhạc",
+    "pauseLabel": "Tạm dừng"
+  },
+  "cake": {
+    "wishButton": "MAKE A WISH ♡",
+    "wishMessage": "Ước đi rồi đó nha ♡"
+  },
+  "proposal": {
+    "question": "Khỉ già mít đóc có đồng ý làm vợ Cún con mít đặc không?",
+    "yes": "Có",
+    "no": "Không thể không đồng ý",
+    "yesTitle": "AAAAAA ♡",
+    "yesText": "Vậy là đồng ý rồi nha!",
+    "noTitle": "Biết ngay mà ♡",
+    "noText": "",
+    "closeButton": "Quay lại ♡"
+  }
+}
